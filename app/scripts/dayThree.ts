@@ -1,7 +1,7 @@
 const fs = require("fs");
 
-const filePath = "dayThree.txt";
-const file = fs.readFileSync(filePath, "utf-8");
+const filePathThree = "../texts/dayThree.txt";
+const file = fs.readFileSync(filePathThree, "utf-8");
 console.log(file);
 
 function handlePairs(index: number, memory: string) {

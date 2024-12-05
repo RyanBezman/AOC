@@ -30,7 +30,7 @@ function calculateTotalDistance(leftList, rightList) {
   return totalDistance;
 }
 
-const filePath = "./input.txt";
+const filePath = "../texts/dayOne.txt";
 
 const { leftArray, rightArray } = getInputFile(filePath);
 

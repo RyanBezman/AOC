@@ -7,7 +7,7 @@ function getReports(filePath) {
   return data;
 }
 
-const dayTwoData = getReports("dayTwo.txt");
+const dayTwoData = getReports("../texts/dayTwo.txt");
 
 function handleSafeReport(num: number) {
   return num >= 1 && num <= 3;
