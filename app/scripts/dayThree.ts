@@ -1,5 +1,4 @@
 const fs = require("fs");
-
 const filePathThree = "../texts/dayThree.txt";
 const file = fs.readFileSync(filePathThree, "utf-8");
 console.log(file);

@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-const fs = require("fs");
+export const fs = require("fs");
 
 function getReports(filePath) {
   const file = fs.readFileSync(filePath, "utf-8");
